@@ -6,11 +6,12 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            The Average Dev
+title:            The Dev Standard
 tagline:          ""
 description:      > #
-  Hi, I'm Mark Chavez. I write Ruby and started dabbling with Elixir. I like making applications that is of
-  high-quality and valuable. Enjoy reading!
+  Hi, I'm Mark Chavez. I write Ruby and Elixir. I believe that AWS and Cloud are synonymous.
+
+  To teach, is the best way to learn.
 
 
 url:              https://github.com/mrkjlchvz
