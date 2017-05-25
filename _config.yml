@@ -1,26 +1,29 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+title:            The Average Dev
+tagline:          ""
+description:      > #
+  Hi, I'm Mark Chavez. I run my own web-based calendar and that's fine. Ideas are just ideas until you
+  execute them. I like making applications that is of high-quality and valuable. Enjoy reading!
+
+
+url:              https://github.com/mrkjlchvz
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           "Mark Chavez"
+  url:            https://github.com/mrkjlchvz
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+twitter: https://twitter.com/mrkjlchvz
+github:  https://github.com/mrkjlchvz
