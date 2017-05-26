@@ -13,7 +13,7 @@ Person = Struct.new(:first_name, :last_name)
 
 person = Person.new("Bart", "Simpson")
 person.first_name # Bart
-person.last_name  # Simpsons
+person.last_name  # Simpson
 ~~~
 
 That's simple, concise and elegant. This is the class version of that example.
