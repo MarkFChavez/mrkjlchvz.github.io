@@ -4,14 +4,14 @@ title: The Hidden Complexity of Ruby
 ---
 
 Ruby's simplicity has reached a whole new level. It has given developers a new approach to writing code. For me, coding
-should be fun and that's what Ruby has always been. This feature has enabled us not to think about code too much but focus
-more on the business side.
+should be fun and that's what Ruby has always been. It has enabled us to not think about code too much but focus
+more on how we can give values to our customers.
 
 Why am I saying this?
 
-Because once a developer has focused on the business, it keeps our clients happy and we get to keep our jobs. More value means success.
+Because once a developer has focused on the customer, it keeps them happy and we get to keep our jobs. More value means success.
 
-Let me show you a block of `ruby` code.
+To demonstrate how simple this language is, let me show you a block of code.
 
 ```ruby
 list_of_characters = Character.all
@@ -30,16 +30,11 @@ The above code is simple, and easy to understand. But this is something that has
 we call this the `N+1` problem. This article is not going to discuss the `N+1` problem but conceptually, it means more
 unnecessary database calls and performance issues.
 
-What I am trying to say is that developers new to Ruby or Rails may have abused the simplicity that `ruby` offers. This is just one of the many problems that `ruby` developers has to be aware of.
+What I am trying to say is that developers new to Ruby or Rails may have abused the simplicity that `ruby` offers. This is just one of the many problems that `ruby` developers has to be aware of. No wonder that there are a lot of `Ruby on Rails is dead.` and `Ruby on Rails does not scale.` articles showing up on the web and it really creeps me up.
 
-No wonder that there are a lot of `Ruby on Rails is dead.` and `Ruby on Rails does not scale.` articles showing up on the web and it really creeps me up.
+It's about time to step up and stop blaming `ruby` for whatever problems that we have. Because it is a language that scales and performs very well just like any other languages.
 
-It's about time to step up and stop blaming `ruby` for whatever problems that we have. Because it is a language that scales and performs very well just like any other languages and we just need to be aware of it.
+We can start by understanding how Ruby's GC works. Or learn how to benchmark effectively. Let's know when and when not to
+use `ActiveRecord` for our queries and many more!
 
-Understand how Ruby's GC works.
-
-Learn how to benchmark effectively.  
-
-Know when and when not to use `ActiveRecord` for your queries.
-
-And lastly, make it simple.
+Make it simple.
