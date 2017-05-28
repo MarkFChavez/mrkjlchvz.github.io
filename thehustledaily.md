@@ -20,6 +20,6 @@ In any case, this is what I'm hustling to right now.
 - I'm currently working on some UI improvements to <a href="http://thegithubproject.markjoelchavez.com">The Github Project</a>.
 - I'm watching <a href="https://www.destroyallsoftware.com/">Destroy All Software</a> screencasts by Gary Bernhardt. I urge you to go and check it out. Really amazing content made by one of the best developers I have ever known.
 - Reading <a href="https://www.amazon.com/Effective-Ruby-Specific-Software-Development/dp/0133846970">Effective Ruby: 48 Specific Ways to Write Better Ruby</a> by Peter J. Jones.
-- I'm also studying ES6 and React. Check out <a href="#">Wes Bos' courses</a>.
+- Good content by <a href="http://wesbos.com/">Wes Bos</a>. He is providing free courses about <a href="https://learnredux.com/">Redux</a> and <a href="https://flexbox.io/">Flexbox</a>. I'll probably check them out next time.
 
 I wish you the best of luck!
