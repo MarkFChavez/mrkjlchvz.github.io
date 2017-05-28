@@ -34,7 +34,7 @@ What I am trying to say is that developers new to Ruby or Rails may have abused 
 
 It's about time to step up and stop blaming `ruby` for whatever problems that we have. Because it is a language that scales and performs very well just like any other languages.
 
-We can start by understanding how Ruby's GC works. Or learn how to benchmark effectively. Let's know when and when not to
-use `ActiveRecord` for our queries and many more!
+Maybe it's a good start by understanding how Ruby's GC works. Or learn how to benchmark effectively. We should know when and when not to
+use `ActiveRecord` queries. And most importantly, the more we know how these things work, the higher the possibility we can contribute and make the Ruby community better.
 
-Make it simple.
+Let's help each other and make it simple.
