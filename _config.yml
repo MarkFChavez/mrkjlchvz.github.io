@@ -8,11 +8,6 @@ permalink:        pretty
 # Setup
 title:            The Dev Standard
 tagline:          ""
-description:      > #
-  Hi, I'm Mark Chavez. I write Ruby and Elixir. I believe that AWS and Cloud are synonymous.
-
-  To teach, is the best way to learn.
-
 
 url:              https://github.com/mrkjlchvz
 baseurl:          /
