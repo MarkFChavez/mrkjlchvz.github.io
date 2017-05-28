@@ -3,8 +3,8 @@ layout: post
 title: The Power of Ruby's Struct
 ---
 
-I like Struct. They are simple and useful. They provide the same functionalities
-like classes do. I normally use Struct if I only need to have accessor methods because
+I like Structs. They are simple and useful. They provide the same functionalities
+like classes do. I normally use a Struct if I only need to have accessor methods because
 it fits the use-case very well.
 
 ~~~ ruby
@@ -16,7 +16,7 @@ person.first_name # Bart
 person.last_name  # Simpson
 ~~~
 
-That's simple, concise and elegant. This is the class version of that example.
+It's simple, concise and elegant. Now, here is a class version of that example.
 
 ~~~ ruby
 class Person

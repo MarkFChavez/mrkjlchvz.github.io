@@ -30,9 +30,9 @@ The above code is simple, and easy to understand. But this is something that has
 we call this the `N+1` problem. This article is not going to discuss the `N+1` problem but conceptually, it means more
 unnecessary database calls and performance issues.
 
-What I am trying to say is that developers new to Ruby or Rails may have abused the simplicity that `ruby` offers. This is just one of the many problems that `ruby` developers has to be aware of. No wonder that there are a lot of `Ruby on Rails is dead.` and `Ruby on Rails does not scale.` articles showing up on the web and it really creeps me up.
+What I am trying to say is that developers new to Ruby or Rails may have abused the simplicity that `ruby` offers. This is just one of the many problems that Ruby developers has to be aware of. No wonder that there are a lot of `Ruby on Rails is dead.` and `Ruby on Rails does not scale.` articles showing up on the web and it really creeps me up.
 
-It's about time to step up and stop blaming `ruby` for whatever problems that we have. Because it is a language that scales and performs very well just like any other languages.
+It's about time to step up and stop blaming Ruby for whatever problems that we have. Because it is a language that scales and performs very well just like any other languages.
 
 Maybe it's a good start by understanding how Ruby's GC works. Or learn how to benchmark effectively. We should know when and when not to
 use `ActiveRecord` queries. And most importantly, the more we know how these things work, the higher the possibility we can contribute and make the Ruby community better.
