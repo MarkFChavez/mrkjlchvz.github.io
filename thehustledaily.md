@@ -17,6 +17,8 @@ together!
 
 In any case, this is what I'm hustling to right now.
 
+- Reading <a href="http://railsspeed.com">The Complete Guide to Rails Performance</a> by Nate
+  Berkopec.
 - I'm currently working on some UI improvements to <a href="http://thegithubproject.markjoelchavez.com">The Github Project</a>.
 - I'm watching <a href="https://www.destroyallsoftware.com/">Destroy All Software</a> screencasts by Gary Bernhardt. I urge you to go and check it out. Really amazing content made by one of the best developers I have ever known.
 - Reading <a href="https://www.amazon.com/Effective-Ruby-Specific-Software-Development/dp/0133846970">Effective Ruby: 48 Specific Ways to Write Better Ruby</a> by Peter J. Jones.
