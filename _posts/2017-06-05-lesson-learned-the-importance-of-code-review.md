@@ -19,7 +19,7 @@ This has been our current setup from the start and it surprisingly worked for qu
 
 ![image-title-here](/public/importance-of-code-review.png){:class="img-responsive"}
 
-It is only today when we realized how really important it is to enforce a code review discipline for our team. After a number of
+It is only today when we realized how really important it is to enforce a code review discipline to our team. After a number of
 discussions on this topic, we decided to implement a <a href="https://gist.github.com/Chaser324/ce0505fbed06b947d962">Standard Fork & Pull Request</a> workflow that goes like this:
 
 1. The developer forks the original repository.

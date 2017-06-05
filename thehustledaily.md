@@ -3,7 +3,7 @@ layout: page
 title: The Hustle Daily
 ---
 
-Hey folks! Welcome to `The Hustle Daily` where I try my best to share what I am up to as of the
+Hey folks! Welcome to **The Hustle Daily** where I try my best to share what I am up to as of the
 moment.
 
 But first.
