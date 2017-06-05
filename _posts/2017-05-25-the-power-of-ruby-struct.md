@@ -7,6 +7,8 @@ I like Structs. They are simple and useful. They provide the same functionalitie
 like classes do. I normally use a Struct if I only need to have accessor methods because
 it fits the use-case very well.
 
+<!--break-->
+
 ~~~ ruby
 # Creating a Struct
 Person = Struct.new(:first_name, :last_name)

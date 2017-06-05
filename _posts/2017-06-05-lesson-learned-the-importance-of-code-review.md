@@ -5,6 +5,8 @@ title: Lesson Learned&#58; The Importance of Code Reviews
 
 As one of the developers on our team, writing efficient and well-written code is a serious responsibility. Our current setup assumes that this is true though. Problem is, we don't have any system that enforces this discipline. To put simply, anyone on our team can push his/her code without someone actually checking it.
 
+<!--break-->
+
 We all suck in giving estimates. If we are to deliver a feature and estimates go wrong, there is a possibility that we might push low-quality code, or even code without tests. To be honest, this is the case with my current team. Our **development-to-production**
 cycle goes like this:
 

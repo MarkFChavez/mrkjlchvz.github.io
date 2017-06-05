@@ -14,6 +14,8 @@ if account.balance > 2_000
 end
 ```
 
+<!--break-->
+
 This is a code smell. Here's a better way to do it.
 
 ```ruby

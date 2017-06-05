@@ -7,6 +7,8 @@ Ruby's simplicity has reached a whole new level. It has given developers a new a
 should be fun and that's what Ruby has always been. It has enabled us to not think about code too much but focus
 more on how we can give values to our customers.
 
+<!--break-->
+
 Why am I saying this?
 
 Because once a developer has focused on the customer, it keeps them happy and we get to keep our jobs. More value means success.
