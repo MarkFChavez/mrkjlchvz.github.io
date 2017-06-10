@@ -14,8 +14,9 @@ Let's show a list of products.
 <% end %>
 ```
 
-This works fine. Until......there are thousands of records. So, let's apply
-caching.
+This works fine. Until......there are thousands of records. So, let's apply caching.
+
+<!--break-->
 
 ## With caching
 
