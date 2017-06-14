@@ -17,9 +17,9 @@ together!
 
 In any case, this is what I'm hustling to right now.
 
+- Reading <a href="#">The Little Elixir & OTP Guidebook</a> by Benjamin Tan Wei Hao
 - Reading <a href="http://railsspeed.com">The Complete Guide to Rails Performance</a> by Nate
   Berkopec.
 - <a href="#">Taking Off With Elixir</a> by Rob Conery.
-- I'm watching <a href="https://www.destroyallsoftware.com/">Destroy All Software</a> screencasts by Gary Bernhardt. I urge you to go and check it out. Really amazing content made by one of the best developers I have ever known.
 
 I wish you the best of luck!
