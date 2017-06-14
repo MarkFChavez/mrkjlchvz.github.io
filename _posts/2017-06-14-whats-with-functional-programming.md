@@ -24,7 +24,8 @@ While it is still a young language, there are already a lot of resources and
 references available on the web which makes it easy for new developers to dive in
 and get started.
 
-There's even a [conference](https://elixirconf.com/) about it.
+There's even a [conference](https://elixirconf.com/) about it. It is unusual for
+an early language to organize one.
 
 The [documentation](https://elixir-lang.org/docs.html) is very well-written and easy to grasp.
 
