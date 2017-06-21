@@ -73,7 +73,7 @@ you. Don't be afraid. Just dive in and sip some Elixir!
 ### Conclusion
 
 Like all other languages, Elixir is not a silver bullet. It is not perfect.  It is
-not always the right decision. It is our responsible as developers to pick the
+not always the right decision. It is our responsibility as developers to pick the
 right language and tools to solve our problems.
 
 
