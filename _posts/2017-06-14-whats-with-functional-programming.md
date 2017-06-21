@@ -40,7 +40,7 @@ language. The syntax and tooling of Elixir didn't seem new to me. In fact,
 it's like coding in Ruby only with some minor differences.
 
 1. Elixir's `mix` is similar to Ruby's `rake`.
-2. Both languages support metaprogramming.
+2. Both languages has metaprogramming capabilities.
 3. Ruby has symbols while Elixir has atoms.
 4. And I'm sure there are more!
 
