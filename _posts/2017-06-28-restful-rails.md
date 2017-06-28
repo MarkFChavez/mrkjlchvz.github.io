@@ -60,7 +60,7 @@ This is usually a common thing for new Rails developers. I used to add a lot of
 non-RESTful methods when I started writing with Rails and it came to a point where maintaining a controller has become wieldy and not fun. Either way, this approach is a code smell and should be placed in a
 separate controller.
 
-Let's start by transferring those methods in a separate controller that we will
+Let's start by transferring those methods in a separate controller which we will
 call `AdminsController`.
 
 ```ruby
