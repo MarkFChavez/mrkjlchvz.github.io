@@ -78,11 +78,12 @@ end
 ```
 
 By adding a separate controller, we have made the intention more clean and
-concise. More importantly, it follows the RESTful convention which is a good
-sign that you are doing the right thing. Now you have shorter lines of code
-per controller which can be easily understood and tested.
+concise. With the new controller, we are effectively **creating** and **destroying** an
+admin in a RESTful sense. More importantly, it follows the RESTful convention
+which is a good sign that you are doing the right thing.
 
-Now, we can remove the methods in the `PeopleController`.
+Now you have shorter lines of code per controller which can be easily understood
+and tested. We can now remove the methods in the `PeopleController`.
 
 ```ruby
 class PeopleController < ApplicationController
