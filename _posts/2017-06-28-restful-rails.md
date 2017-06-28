@@ -78,7 +78,7 @@ end
 ```
 
 By adding a separate controller, we have made the intention more clean and
-concise. With the new controller, we are effectively **creating** and **destroying** an
+concise. With the new controller, we are effectively **creating** (making) and **destroying** (removing) an
 admin in a RESTful sense. More importantly, it follows the RESTful convention
 which is a good sign that you are doing the right thing.
 
