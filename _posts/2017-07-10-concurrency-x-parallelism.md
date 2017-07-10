@@ -8,6 +8,8 @@ science The reason why is because these are very important concepts to build a s
 reliable and fault-tolerant service. Also, there are a huge number of
 discussions/debates as to what the differences are!
 
+<!--break-->
+
 Most people thought in different ways which has spread several beliefs which has
 obviously tattered the meanings of both terms. In fact, some people would say 
 **Concurrent = Parallel**, and another group would think otherwise.
