@@ -4,7 +4,7 @@ title: Concurrency vs Parallelism (Elixir)
 ---
 
 Concurrency and Parallelism are two of the most talked-about topics in computer
-science The reason why is because these are very important concepts to build a scalable, 
+science. The reason why is because these are very important concepts to build a scalable, 
 reliable and fault-tolerant service. Also, there are a huge number of
 discussions/debates as to what the differences are!
 
