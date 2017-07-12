@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Concurrency vs Parallelism (Elixir)
+title: Concurrency vs Parallelism
 ---
 
 Concurrency and Parallelism are two of the most talked-about topics in computer
