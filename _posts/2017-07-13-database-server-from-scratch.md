@@ -1,6 +1,5 @@
 ---
 layout: post
-published: false
 title: Building a Mock Database Server from Scratch in Elixir
 ---
 
@@ -46,6 +45,11 @@ defp loop do
 
   loop()
 end
+
+defp run_query(query_def) do
+  :timer.sleep(2000)
+  "Query result: #{query_def}"
+end
 ```
 
 The **loop** method is the one responsible for continuously receiving
@@ -53,3 +57,70 @@ messages from its clients. I marked it as a private method because it does not
 need to be called outside the module and that's fine. As you have noticed, `loop()` is
 executed every time the method ends. This is called recursion and lets
 the server handle continuous messages.
+
+### Sending the query to the server
+
+```elixir
+def send_query(server_pid, query_def) do
+  caller = self()
+  send(server_pid, {:run_query, caller, query_def})
+end
+```
+
+Sending a message to the server is a trivial task at least for the app that we
+are building. It's as easy as sending the message back to the caller.
+
+### Getting messages back
+
+Since the server is sending us the query result, there should be a way for the
+client to fetch those results. You might think at this point that you can just
+easily execute a `receive` method with a block and there's nothing wrong with
+that.
+
+```elixir
+# client (e.g. shell)
+receive do
+  {:query_result, result} -> IO.inspect(result)
+end
+```
+
+It's generally a good practice to provide this functionality to the
+`DatabaseServer`.
+
+```elixir
+defmodule DatabaseServer do
+  def get_result do
+    receive do
+      {:query_result, result} -> IO.inspect(result)
+    end
+  end
+end
+```
+
+With this method that we added, the client only needs to call `get_result` and
+the module will take care of it.
+
+### Testing the Database Server
+
+```elixir
+# start server process
+pid = DatabaseServer.start()
+
+# send a query to the server
+DatabaseServer.send_query(pid, {:run_query, "sample query"})
+
+# get the result
+DatabaseServer.get_result()
+```
+
+Please take note that the database server is processing all the messages
+synchronously. That means if you send 5 messages to a single server
+process, it will neither be concurrent nor parallel. Therefore, the last
+query's result will be available after 10 seconds (:timer.sleep).
+
+With Elixir, it is always best to consider if a problem can be ran
+concurrently or parallel so in this case, maybe creating a pool of
+database servers will help.
+
+That's all for now. Happy reading!
+
