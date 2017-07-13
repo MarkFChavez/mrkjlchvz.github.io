@@ -4,9 +4,11 @@ title: Building a Mock Database Server from Scratch in Elixir
 ---
 
 Hello again! So I decided to build a mock database server in Elixir without
-using **GenServer**. In the real world, this is probably something that we 
+using **GenServer**. In the real world, this is probably something that we
 won't do since **GenServer** provides pretty much all the capabilities that
-a server would need. 
+a server would need.
+
+<!--break-->
 
 First, I want to let you know that the working code is on my GitHub account. You
 can check the repo by clicking [here](https://github.com/mrkjlchvz/mock_database_server).
@@ -118,7 +120,7 @@ synchronously. That means if you send 5 messages to a single server
 process, it will neither be concurrent nor parallel. Therefore, the last
 query's result will be available after 10 seconds (:timer.sleep).
 
-With Elixir, it is always best to consider if a problem can be ran
+With Elixir, it is always best to consider if a problem can be run
 concurrently or parallel so in this case, maybe creating a pool of
 database servers will help.
 
