@@ -30,7 +30,7 @@ the first message that happens to be inserted first similar to a FIFO queue.
 
 Starting up the server is a trivial job.
 
-```elixir
+```
 def start do
   spawn(&loop/0)
 end
@@ -38,7 +38,7 @@ end
 
 Calling the **start** method spawns a new process that calls **loop**.
 
-```elixir
+```
 defp loop do
   receive do
     {:run_query, caller, query_def} ->
@@ -62,7 +62,7 @@ the server handle continuous messages.
 
 ### Sending the query to the server
 
-```elixir
+```
 def send_query(server_pid, query_def) do
   caller = self()
   send(server_pid, {:run_query, caller, query_def})
@@ -79,7 +79,7 @@ client to fetch those results. You might think at this point that you can just
 easily execute a `receive` method with a block and there's nothing wrong with
 that.
 
-```elixir
+```
 # client (e.g. shell)
 receive do
   {:query_result, result} -> IO.inspect(result)
@@ -89,7 +89,7 @@ end
 It's generally a good practice to provide this functionality to the
 `DatabaseServer`.
 
-```elixir
+```
 defmodule DatabaseServer do
   def get_result do
     receive do
@@ -104,7 +104,7 @@ the module will take care of it.
 
 ### Testing the Database Server
 
-```elixir
+```
 # start server process
 pid = DatabaseServer.start()
 
