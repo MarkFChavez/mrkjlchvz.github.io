@@ -8,6 +8,10 @@ science. The reason why is because these are very important concepts to build a 
 reliable and fault-tolerant service. Also, there are a huge number of
 discussions/debates as to what the differences are!
 
+```
+a code
+```
+
 <!--break-->
 
 Most people thought in different ways which has spread several beliefs which has
