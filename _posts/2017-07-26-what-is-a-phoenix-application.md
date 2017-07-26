@@ -15,8 +15,9 @@ in the future to share my experiences and struggles.
 Now, let's get down to Phoenix!
 
 Earlier today as I was searching for some Elixir goodies, I was brought upon a
-YouTube link of **Lance Halvorsen** talking about Phoenix framework. If you are not
-familiar who Lance is, he wrote [this](https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix)
+youtube link (watch [here](https://www.youtube.com/watch?v=lDKCSheBc-8)) of **Lance Halvorsen** 
+talking about the Phoenix framework. If you are not familiar who Lance is, he wrote 
+[this](https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix)
 book and I encourage you to take a look.
 
 The talk amazed me. Seriously. It did. It gave me a new perspective when writing
