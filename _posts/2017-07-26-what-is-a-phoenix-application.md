@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is a Phoenix Application?
+title: How Phoenix Define an Application?
 ---
 
 Hey there.
