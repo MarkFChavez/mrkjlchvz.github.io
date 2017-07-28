@@ -27,7 +27,7 @@ understood it, is like a monolith that consists of business logic, database
 connections, templates and many more. As a Rails developer, that is basically
 a fact but with Phoenix, it is different in a high scale.
 
-### So how does Phoenix define an Application?
+### So How Does Phoenix Define An Application?
 
 Working with Phoenix gives you a different perspective. It is in itself, an
 application, but it can contain one or more applications. You heard that right.
