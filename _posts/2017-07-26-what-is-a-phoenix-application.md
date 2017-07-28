@@ -31,8 +31,9 @@ a fact but with Phoenix, it is different in a high scale.
 
 Working with Phoenix gives you a different perspective. It is in itself, an
 application, but it can contain one or more applications. You heard that right.
-I'm not drank or anything. You can watch the video if you want to. Well, let me
-explain to you the deeper meaning.
+I'm not drank or anything. In fact, I encourage you to watch the video because
+I'm pretty sure I missed some points or two. But in any case, let me explain to
+you a deeper meaning of this.
 
 A typical Phoenix application contains **one or more Elixir applications added as
 a dependency**. That's a good design because it lets you write good code that is
