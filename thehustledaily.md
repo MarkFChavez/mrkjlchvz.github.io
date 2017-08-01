@@ -20,6 +20,6 @@ In any case, this is what I'm hustling to right now.
 - Reading Dave Thomas' [Programming
   Elixir](https://pragprog.com/book/elixir13/programming-elixir-1-3)
 - I am learning a JavaScript framework called [Vue.js](https://vuejs.org/)
-- I am starting to learn how to start an online business
+- I am learning how to start an online business
 
 I wish you the best of luck!
