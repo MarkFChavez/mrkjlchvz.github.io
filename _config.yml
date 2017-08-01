@@ -17,7 +17,7 @@ author:
   name:           "Mark Chavez"
   url:            https://github.com/mrkjlchvz
 
-paginate:         5
+paginate:         10
 
 gems: ["jekyll-seo-tag"]
 
