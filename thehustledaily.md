@@ -17,9 +17,9 @@ together!
 
 In any case, this is what I'm hustling to right now.
 
-- Reading <a href="#">The Little Elixir & OTP Guidebook</a> by Benjamin Tan Wei Hao
-- Reading <a href="http://railsspeed.com">The Complete Guide to Rails Performance</a> by Nate
-  Berkopec.
-- <a href="#">Taking Off With Elixir</a> by Rob Conery.
+- Reading Dave Thomas' [Programming
+  Elixir](https://pragprog.com/book/elixir13/programming-elixir-1-3)
+- I am learning a JavaScript framework called [Vue.js](https://vuejs.org/)
+- I am starting to learn how to start an online business
 
 I wish you the best of luck!
