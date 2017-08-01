@@ -5,7 +5,7 @@ title: Anonymous Functions with Elixir
 
 Anonymous functions are simply functions or methods that is not assigned a
 name. While named functions are very much a common thing, anonymous functions
-has its good uses too especially in Elixir. Let's see why. 
+has its good uses too especially in Elixir.
 
 ### Basic example
 
