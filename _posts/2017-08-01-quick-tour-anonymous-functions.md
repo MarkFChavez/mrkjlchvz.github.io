@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Anonymous Functions with Elixir
-published: false
 ---
 
 Anonymous functions are simply functions or methods that is not assigned a
-name. Below are some examples.
-
+name. While named functions are very much a common thing, anonymous functions
+has its good uses too especially in Elixir. Let's see why. 
 
 ### Basic example
 
@@ -14,6 +13,8 @@ name. Below are some examples.
 hello_world = fn -> IO.puts("Hello world") end
 hello_world.() # Hello world
 ```
+
+<!--break-->
 
 ### With arguments
 
@@ -45,3 +46,37 @@ end
 
 outer.().(30) # Inner function with value: 30
 ```
+
+### Anonymous function can also access variables outside of it
+
+```elixir
+fact = "I love Elixir"
+fun = fn -> "Hey, #{fact}" end
+
+fun.() # Hey, I love Elixir
+```
+
+### Passing a function as an argument
+
+```elixir
+fun = fn(name) -> "Hello #{name}" end
+
+# ... inside a module ...
+def accept(fun, value) do
+  IO.puts fun.(value)
+end
+
+Module.accept(fun, "Elixir Programmer!") # Hello Elixir Programmer!
+```
+
+The above example basically shows how some of `Enum`'s method work.
+
+```elixir
+# Enum.map
+list = [1, 2, 3, 4]
+add_one = fn(number) -> number + 1 end
+
+Enum.map list, add_one # [2, 3, 4, 5]
+```
+
+Happy reading!
