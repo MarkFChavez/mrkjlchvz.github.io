@@ -11,7 +11,7 @@ description:      A blog focusing on Ruby and Elixir development.
 tagline:          ""
 
 url:              http://markjoelchavez.com
-baseurl:          http://markjoelchavez.com
+baseurl:          http://markjoelchavez.com/
 
 author:
   name:           "Mark Chavez"
