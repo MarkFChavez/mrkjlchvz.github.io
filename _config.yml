@@ -7,10 +7,11 @@ permalink:        pretty
 
 # Setup
 title:            The Dev Standard
+description:      A blog focusing on Ruby and Elixir development.
 tagline:          ""
 
-url:              https://github.com/mrkjlchvz
-baseurl:          http://markjoelchavez.com/
+url:              http://markjoelchavez.com
+baseurl:          /
 
 author:
   name:           "Mark Chavez"
@@ -24,5 +25,7 @@ gems: ["jekyll-seo-tag"]
 version:          2.1.0
 
 email:   markchav3z@gmail.com
-cv:      https://standardresume.co/markchavez
 github:  https://github.com/mrkjlchvz
+
+twitter:
+  username: mrkjlchvz
