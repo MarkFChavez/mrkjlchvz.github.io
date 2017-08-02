@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Power of Ruby's Struct
+category: ruby
 ---
 
 I like Structs. They are simple and useful. They provide the same functionalities

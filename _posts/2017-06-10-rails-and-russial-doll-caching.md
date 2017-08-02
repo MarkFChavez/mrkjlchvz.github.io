@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rails & Russian Doll Caching
+category: ruby
 ---
 
 Let's show a list of products.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lesson Learned&#58; The Importance of Code Reviews
+category: general
 ---
 
 As one of the developers on our team, writing efficient and well-written code is a serious responsibility. Our current setup assumes that this is true though. Problem is, we don't have any system that enforces this discipline. To put simply, anyone on our team can push his/her code without someone actually checking it.

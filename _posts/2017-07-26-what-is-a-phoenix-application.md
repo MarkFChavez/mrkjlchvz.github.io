@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How Phoenix Define an Application?
+category: elixir
 ---
 
 Hey there.

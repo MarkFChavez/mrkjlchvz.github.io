@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Anonymous Functions with Elixir
+category: elixir
 ---
 
 Anonymous functions are simply functions or methods that is not assigned a

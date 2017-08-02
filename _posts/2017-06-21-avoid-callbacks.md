@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why You Should Avoid Rails Callbacks?
+category: ruby
 ---
 
 **tl;dr - Just avoid them at all costs**

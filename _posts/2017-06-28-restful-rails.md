@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Writing a RESTful Rails Controller
+category: ruby
 ---
 
 It is very important to keep your controllers clean. It must be readable, concise

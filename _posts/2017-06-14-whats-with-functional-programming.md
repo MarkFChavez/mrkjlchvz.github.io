@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Functional Programming and Elixir
+category: elixir
 ---
 
 Looks like functional programming is gaining a lot of traction for quite some time now. I just

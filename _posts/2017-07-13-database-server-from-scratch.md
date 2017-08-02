@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Building a Mock Database Server from Scratch in Elixir
+category: elixir
 ---
 
 Hello again! So I decided to build a mock database server in Elixir without

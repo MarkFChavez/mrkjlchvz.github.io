@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Concurrency vs Parallelism
+category: general
 ---
 
 Concurrency and Parallelism are two of the most talked-about topics in computer

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tell, Don't Ask
+category: ruby
 ---
 
 Rubyists often write a block of code that is similar to the one below.

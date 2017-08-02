@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Hidden Complexity of Ruby
+category: ruby
 ---
 
 Ruby's simplicity has reached a whole new level. It has given developers a new approach to writing code. For me, coding
