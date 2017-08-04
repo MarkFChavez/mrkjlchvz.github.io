@@ -8,6 +8,8 @@ I used to love conditionals. I think everybody does. It gave us the ability to
 decide what the system should do depending on many factors. It was a silver
 bullet. Not until I started writing in Elixir.
 
+<!--break-->
+
 Elixir has introduced a fairly new concept to my head called *Pattern Matching*.
 It is somewhat similar to regular expressions but is different in many ways. We
 can use the power of pattern matching to avoid conditionals and thus write a
