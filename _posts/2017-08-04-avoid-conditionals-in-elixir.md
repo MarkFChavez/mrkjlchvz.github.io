@@ -24,11 +24,11 @@ Consider this example.
 ```elixir
 defmodule HelloCountry do
   def for(country) do
-    if language == "america" do
+    if country == "america" do
       "Hello"
-    else if language == "japan" do
+    else if country  == "japan" do
       "Kon'nichiwa"
-    else if language == "china" do
+    else if country == "china" do
       "Nǐ hǎo"
     end
   end
@@ -55,9 +55,9 @@ You should be alarmed when you see a conditional logic in your Elixir code.
 
 ```elixir
 defmodule HelloCountry do
-  def for(country = "america"), do: "Hello"
-  def for(country = "japan"), do: "Kon'nichiwa"
-  def for(country = "china"), do: "Nǐ hǎo"
+  def for("america"), do: "Hello"
+  def for("japan"), do: "Kon'nichiwa"
+  def for("china"), do: "Nǐ hǎo"
 end
 
 HelloCountry.for("america") # Hello
