@@ -14,8 +14,6 @@ a lot of time to understand and test the code.
 
 <!--break-->
 
-Elixir saved my life.
-
 Elixir has introduced a fairly new concept to my head called *Pattern Matching*.
 It is somewhat similar to regular expressions but is different in many ways. We
 can use the power of pattern matching to avoid conditionals and thus write a
