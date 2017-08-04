@@ -65,6 +65,7 @@ HelloCountry.for("japan")   # Kon'nichiwa
 HelloCountry.for("china")   # Nǐ hǎo
 ```
 
-Pattern matching is one of the core features that made me love this language.
+Pattern matching is one of the core features that made me love this language and
+it only goes better from here.
 
 Happy reading!
