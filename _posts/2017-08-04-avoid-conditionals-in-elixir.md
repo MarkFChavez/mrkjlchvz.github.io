@@ -4,7 +4,7 @@ title: Avoid Conditionals in Elixir
 category: elixir
 ---
 
-I used to love conditionals. I think everybody does. It gave us the ability to
+I used to love conditionals. I think everybody did. It gave us the ability to
 decide what the system should do depending on many factors. It was a silver
 bullet. Not until I started writing in Elixir.
 
