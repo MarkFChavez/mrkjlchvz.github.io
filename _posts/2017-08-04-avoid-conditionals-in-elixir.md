@@ -19,7 +19,7 @@ It is somewhat similar to regular expressions but is different in many ways. We
 can use the power of pattern matching to avoid conditionals and thus write a
 clear and understandable code without the *if* and *else* statements.
 
-Consider this example.
+Consider this example
 
 ```elixir
 defmodule HelloCountry do
