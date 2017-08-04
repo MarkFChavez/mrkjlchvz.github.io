@@ -6,9 +6,15 @@ category: elixir
 
 I used to love conditionals. I think everybody did. It gave us the ability to
 decide what the system should do depending on many factors. It was a silver
-bullet. Not until I started writing in Elixir.
+bullet.
+
+Not until I was forced to write a collection of complex conditional
+logics and I didn't have my refactoring bag with me. It was hell and took me
+a lot of time to understand and test the code.
 
 <!--break-->
+
+Elixir saved my life.
 
 Elixir has introduced a fairly new concept to my head called *Pattern Matching*.
 It is somewhat similar to regular expressions but is different in many ways. We
