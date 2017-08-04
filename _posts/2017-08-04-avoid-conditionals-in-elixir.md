@@ -51,7 +51,7 @@ we only call this function if the pattern matched. It basically looks like a
 group of overloaded methods (if you came from a Java background) but their
 patterns are different respectively.
 
-You should be alarmed when you see a conditional logic in our Elixir code.
+You should be alarmed when you see a conditional logic in your Elixir code.
 
 ```elixir
 defmodule HelloCountry do
