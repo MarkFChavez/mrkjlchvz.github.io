@@ -22,4 +22,10 @@ In any case, this is what I'm hustling to right now.
 - I am learning a JavaScript framework called [Vue.js](https://vuejs.org/)
 - I am learning how to start an online business
 
+My goal is to be efficient in both Elixir and Javascript by the end of year. I'm
+also looking forward to checking these things out.
+
+- Framework7 (mobile apps using Vue.js)
+- Electron (desktop apps using JavaScript, but can be integrated with Vue)
+
 I wish you the best of luck!
