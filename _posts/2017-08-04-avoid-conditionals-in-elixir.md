@@ -2,7 +2,6 @@
 layout: post
 title: Avoid Conditionals in Elixir
 category: elixir
-published: false
 ---
 
 I used to love conditionals. I think everybody does. It gave us the ability to
@@ -14,42 +13,52 @@ It is somewhat similar to regular expressions but is different in many ways. We
 can use the power of pattern matching to avoid conditionals and thus write a
 clear and understandable code without the *if* and *else* statements.
 
-Here's a basic example.
+Consider this example.
 
 ```elixir
-[a, b, c] = [1, 2, 3]
-a # 1
-b # 2
-c # 3
-
-[ head | tail ] = [1, 2, 3, 4, 5, 6, 7]
-head # 1
-tail # [2, 3, 4, 5, 6, 7]
-```
-
-Elixir tries to match the expression on the right with the expression on
-the left.
-
-We can even use it on functions.
-
-```elixir
-defmodule MyFile do
-  def read_file({:ok, file}) do
-    "the file exists"
-  end
-
-  def read_file({:error, reason}) do
-    "the files DOES NOT exist"
+defmodule HelloCountry do
+  def for(country) do
+    if language == "america" do
+      "Hello"
+    else if language == "japan" do
+      "Kon'nichiwa"
+    else if language == "china" do
+      "Nǐ hǎo"
+    end
   end
 end
 ```
 
-And we can use the above module like so:
+The above example looks typical. Coming from the ruby language, I can safely say
+that this is a usual solution but not a good one though. Personally, having a
+conditional logic in a function brings a bunch of complexities. 
+
+Why?
+
+Because it makes me think. I don't want to waste my precious time thinking (I'm sure you do too) whether the
+expression returns true or false.
+
+### The Elixir way of doing things
+
+With Elixir, we can use pattern matching directly on functions to make sure that
+we only call this function if the pattern matched. It basically looks like a
+group of overloaded methods (if you came from a Java background) but their
+patterns are different respectively.
+
+You should be alarmed when you see a conditional logic in our Elixir code.
 
 ```elixir
-result = MyFile.read_file(File.open("does not exist.txt"))
-IO.puts(result) # the files DOES NOT exist
+defmodule HelloCountry do
+  def for(country = "america"), do: "Hello"
+  def for(country = "japan"), do: "Kon'nichiwa"
+  def for(country = "china"), do: "Nǐ hǎo"
+end
+
+HelloCountry.for("america") # Hello
+HelloCountry.for("japan")   # Kon'nichiwa
+HelloCountry.for("china")   # Nǐ hǎo
 ```
 
-As you can see with the above example, we just avoided the possibility of adding 
-a conditional logic. This is how we may
+Pattern matching is one of the core features that made me love this language.
+
+Happy reading!
