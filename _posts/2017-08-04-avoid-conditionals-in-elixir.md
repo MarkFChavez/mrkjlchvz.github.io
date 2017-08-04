@@ -55,9 +55,9 @@ You should be alarmed when you see a conditional logic in your Elixir code.
 
 ```elixir
 defmodule HelloCountry do
-  def for("america"), do: "Hello"
-  def for("japan"), do: "Kon'nichiwa"
-  def for("china"), do: "Nǐ hǎo"
+  def for(_country = "america"), do: "Hello"
+  def for(_country = "japan"), do: "Kon'nichiwa"
+  def for(_country = "china"), do: "Nǐ hǎo"
 end
 
 HelloCountry.for("america") # Hello
