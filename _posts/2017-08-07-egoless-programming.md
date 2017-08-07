@@ -9,6 +9,8 @@ you haven't read it yet, kindly do so. It will make your life happier.
 
 > *Attitude* is everything.
 
+<!--break-->
+
 I truly believe that *Attitude* goes a long way. I can still remember the first time I started
 programming when:
 
