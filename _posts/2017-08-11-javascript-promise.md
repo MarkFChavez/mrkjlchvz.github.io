@@ -55,13 +55,13 @@ let employees = [
 
 function getEmployeeByName(name) {
   // return a Promise object
-  return new Promise((resolve, reject) => {
+  return new Promise((success, error) => {
     let employee = employees.find(emp => emp.name === name );
 
     if(employee) {
-      resolve(employee);
+      success(employee);
     } else {
-      reject(Error('Employee not found'));
+      error(Error('Employee not found'));
     }
   });
 }
@@ -71,4 +71,26 @@ getEmployeeByName('mark')
     const { name, position } = data;
     console.log('Hello ' + name + ', your position is ' + position);
   })
+  .catch(error => {
+    console.log('Employee not found');
+  });
 ```
+
+If you will be writing your own promise objects, keep in mind that it accepts two
+arguments like the example above.
+
+The first argument is a `success` callback if the operation succeed and a data
+is returned. In our case, we can consider it a `success` if the `name` we passed
+exists on the `employees` array.
+
+The second argument is an `error` callback if the operation fails. This is where
+the `.catch()` will be used.
+
+### Conclusion
+
+In reality, it is not common to write your own promise object unless you really need
+to. Most usually though, we will be consumers of functions that returns a promise and by
+the time that happens, it will be a piece of cake!
+
+Happy reading!
+
