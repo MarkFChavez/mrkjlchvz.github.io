@@ -22,8 +22,13 @@ In any case, this is what I'm hustling to right now.
 - I am learning a JavaScript framework called [Vue.js](https://vuejs.org/)
 - I am learning how to start an online business
 
+### Goals
+
 My goal is to be efficient in both *Elixir* and *Javascript* by the end of year. I
 want to, at least, create something that is useful for developers. I'll talk
 about it in details in the upcoming weeks.
+
+By the end of this year, I should be capable of developing advanced mobile apps for both
+iOS and android using *React Native*.
 
 Happy reading!
