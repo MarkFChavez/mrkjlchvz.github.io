@@ -9,7 +9,7 @@ world. Then suddenly, it boomed and went crazy. Nowadays, you can't see an indiv
 a mobile phone.
 
 To be honest, I've been trying to learn mobile development for quite a while. Then at
-some point, I stopped and moved on with web again instead.
+some point, I stopped and moved on again with web instead.
 
 I don't know.
 
