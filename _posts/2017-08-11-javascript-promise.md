@@ -21,6 +21,8 @@ fetch(url)
   });
 ```
 
+<!--break-->
+
 ### Using fetch, but with error checking
 
 The above code looks good but lacks an error checking mechanism. What if we provided a
