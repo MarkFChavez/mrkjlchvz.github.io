@@ -23,6 +23,12 @@ As of Aug 23, 2017:
 - Playing with Elixir and Phoenix development
 - Learning mobile app development with React Native
 
+As of Sept 6, 2017:
+
+- Learning Redux Integration with React Native
+- Learning more about Javascript in general
+- Almost done with the *React Native* course
+
 ### Goals
 
 My goal is to be efficient in both *Elixir* and *Javascript* by the end of year. I
