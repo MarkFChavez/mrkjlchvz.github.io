@@ -22,8 +22,8 @@ update the application state.
 
 ### How this looks in action.
 
-As a good first example, I'll show you how a simple **adding a todo** works
-using Redux. Below is a basic redux setup.
+As a good first example, I'll show you how to add a todo item using Redux.
+Below is a basic redux setup.
 
 ```javascript
 // import redux lib
