@@ -15,6 +15,8 @@ article, I want you to at least keep these terms in mind (and in order).
 
 Let's get started by talking about how JavaScript executes a program.
 
+<!--break-->
+
 ### How are functions called in JavaScript?
 
 JavaScript executes a program differently. Unlike with other programming languages the actual skeleton of execution is not explicitly obvious.
